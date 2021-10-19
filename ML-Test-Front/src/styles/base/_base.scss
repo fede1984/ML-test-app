@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+html,
+body,
+App {
+    background-color: $light-grey;
+}
+
+header {
+    height: 56px;
+    background-color: $ml-yelllow;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.bigLogo {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.routerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}

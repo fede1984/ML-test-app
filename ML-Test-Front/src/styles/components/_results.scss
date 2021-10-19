@@ -1,0 +1,60 @@
+.resultsContainer {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.itemContainer {
+    background-color: white;
+    display: flex;
+    padding: 0;
+    border-bottom: thin solid $light-grey;
+}
+
+.itemImg {
+    height: 180px;
+    width: 180px;
+    margin: 16px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.itemData {
+    padding: 0;
+}
+
+.itemTitle {
+    padding: 0;
+    display: flex;
+    margin-top: 32px;
+}
+
+.itemPrice {
+    font-size: 24px;
+    padding: 0;
+}
+
+.itemLocation {
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+.itemDescription {
+    padding: 0;
+    color: $black;
+}
+
+#hola:hover {
+    color: black;
+}
+
+.noResult {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    width: 100%;
+}

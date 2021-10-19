@@ -1,0 +1,45 @@
+.navSearch {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-right: 0;
+    width: 78%;
+}
+
+.nav-search-input {
+    width: 95%;
+    height: 39px;
+    outline: none;
+    border: none;
+    padding-left: 1%;
+    font-size: 18px;
+    color: $black;
+}
+
+.navButton {
+    background-color: $light-grey;
+    width: 5%;
+    height: 39px;
+    border-width: 0px 0px 0px 2px;
+    border-color: $light-grey;
+    background-image: url("../../assets/ic_Search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.navButton:focus {
+    border: none;
+    outline: none;
+}
+
+.logo {
+    height: 39px;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}

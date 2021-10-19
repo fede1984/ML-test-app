@@ -4,6 +4,11 @@ Para levantar la app se necesita levantar el Front y el back:
 
 (Para ambos se debe tener instalada la version 14 de Nodejs)
 
-El front se levanta yendo en la consola a la carpeta ML-Test-Front y ejecutando el comando npm start
+En primer lugar se debe ir en la CMD a la carpeta de la parte de la App que deseemos levantar:
+ML-Test-Front para levantar el front
+ML-Test-Back para levantar el back
 
-El back se levanta yendo en la consola a la carpeta ML-Test-Back y ejecutando el mismo comando (npm start)
+Luego para ambos se ejecutan los mismos comandos:
+1-  npm install
+2-  npm  start
+
